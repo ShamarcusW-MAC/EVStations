@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		02B9CB232E547AF100DC0521 /* EVStationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB222E547AF100DC0521 /* EVStationsApp.swift */; };
-		02B9CB252E547AF100DC0521 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB242E547AF100DC0521 /* ContentView.swift */; };
 		02B9CB272E547AF300DC0521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B9CB262E547AF300DC0521 /* Assets.xcassets */; };
 		02B9CB2A2E547AF300DC0521 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B9CB292E547AF300DC0521 /* Preview Assets.xcassets */; };
 		02B9CB342E547AF400DC0521 /* EVStationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB332E547AF400DC0521 /* EVStationsTests.swift */; };
 		02B9CB3E2E547AF400DC0521 /* EVStationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB3D2E547AF400DC0521 /* EVStationsUITests.swift */; };
 		02B9CB402E547AF400DC0521 /* EVStationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB3F2E547AF400DC0521 /* EVStationsUITestsLaunchTests.swift */; };
+		02B9CB4D2E547B0900DC0521 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB4C2E547B0900DC0521 /* Config.swift */; };
+		02B9CB542E547EF500DC0521 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB532E547EF500DC0521 /* NetworkManager.swift */; };
+		02B9CB572E547F6D00DC0521 /* EVStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB562E547F6D00DC0521 /* EVStation.swift */; };
+		02B9CB592E547FC500DC0521 /* AddressInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB582E547FC500DC0521 /* AddressInfo.swift */; };
+		02B9CB5B2E547FD400DC0521 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB5A2E547FD400DC0521 /* Connection.swift */; };
+		02B9CB5D2E547FE400DC0521 /* ConnectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB5C2E547FE400DC0521 /* ConnectionType.swift */; };
+		02B9CB5F2E547FF200DC0521 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB5E2E547FF200DC0521 /* Station.swift */; };
+		02B9CB612E54808500DC0521 /* StationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB602E54808500DC0521 /* StationService.swift */; };
+		02B9CB632E54823D00DC0521 /* StationsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB622E54823D00DC0521 /* StationsListViewModel.swift */; };
+		02B9CB652E54835000DC0521 /* StationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB642E54835000DC0521 /* StationListView.swift */; };
+		02B9CB672E54867500DC0521 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB662E54867500DC0521 /* Country.swift */; };
+		02B9CB692E548DD200DC0521 /* StationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB682E548DD200DC0521 /* StationDetailView.swift */; };
+		4F85E42A2E55A0F800E1A192 /* StationsListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85E4292E55A0F800E1A192 /* StationsListViewModelTests.swift */; };
+		4F85E42C2E55FF1400E1A192 /* MockStationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85E42B2E55FF1400E1A192 /* MockStationService.swift */; };
+		4F85E4302E5602F700E1A192 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4F85E42F2E5602F700E1A192 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +50,6 @@
 /* Begin PBXFileReference section */
 		02B9CB1F2E547AF100DC0521 /* EVStations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVStations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B9CB222E547AF100DC0521 /* EVStationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVStationsApp.swift; sourceTree = "<group>"; };
-		02B9CB242E547AF100DC0521 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02B9CB262E547AF300DC0521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02B9CB292E547AF300DC0521 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02B9CB2F2E547AF400DC0521 /* EVStationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EVStationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +57,22 @@
 		02B9CB392E547AF400DC0521 /* EVStationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EVStationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B9CB3D2E547AF400DC0521 /* EVStationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVStationsUITests.swift; sourceTree = "<group>"; };
 		02B9CB3F2E547AF400DC0521 /* EVStationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVStationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02B9CB4C2E547B0900DC0521 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		02B9CB4E2E547B7600DC0521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		02B9CB532E547EF500DC0521 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		02B9CB562E547F6D00DC0521 /* EVStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVStation.swift; sourceTree = "<group>"; };
+		02B9CB582E547FC500DC0521 /* AddressInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressInfo.swift; sourceTree = "<group>"; };
+		02B9CB5A2E547FD400DC0521 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		02B9CB5C2E547FE400DC0521 /* ConnectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionType.swift; sourceTree = "<group>"; };
+		02B9CB5E2E547FF200DC0521 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		02B9CB602E54808500DC0521 /* StationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationService.swift; sourceTree = "<group>"; };
+		02B9CB622E54823D00DC0521 /* StationsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsListViewModel.swift; sourceTree = "<group>"; };
+		02B9CB642E54835000DC0521 /* StationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListView.swift; sourceTree = "<group>"; };
+		02B9CB662E54867500DC0521 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		02B9CB682E548DD200DC0521 /* StationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailView.swift; sourceTree = "<group>"; };
+		4F85E4292E55A0F800E1A192 /* StationsListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsListViewModelTests.swift; sourceTree = "<group>"; };
+		4F85E42B2E55FF1400E1A192 /* MockStationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockStationService.swift; sourceTree = "<group>"; };
+		4F85E42F2E5602F700E1A192 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +123,16 @@
 		02B9CB212E547AF100DC0521 /* EVStations */ = {
 			isa = PBXGroup;
 			children = (
+				02B9CB552E547F5C00DC0521 /* Models */,
+				02B9CB522E547D1700DC0521 /* Util */,
+				02B9CB512E547D0C00DC0521 /* ViewModels */,
+				02B9CB502E547D0100DC0521 /* Views */,
+				02B9CB4F2E547CF700DC0521 /* Network */,
+				02B9CB4E2E547B7600DC0521 /* Info.plist */,
 				02B9CB222E547AF100DC0521 /* EVStationsApp.swift */,
-				02B9CB242E547AF100DC0521 /* ContentView.swift */,
 				02B9CB262E547AF300DC0521 /* Assets.xcassets */,
 				02B9CB282E547AF300DC0521 /* Preview Content */,
+				4F85E42F2E5602F700E1A192 /* README.md */,
 			);
 			path = EVStations;
 			sourceTree = "<group>";
@@ -114,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				02B9CB332E547AF400DC0521 /* EVStationsTests.swift */,
+				4F85E4292E55A0F800E1A192 /* StationsListViewModelTests.swift */,
+				4F85E42B2E55FF1400E1A192 /* MockStationService.swift */,
 			);
 			path = EVStationsTests;
 			sourceTree = "<group>";
@@ -125,6 +162,53 @@
 				02B9CB3F2E547AF400DC0521 /* EVStationsUITestsLaunchTests.swift */,
 			);
 			path = EVStationsUITests;
+			sourceTree = "<group>";
+		};
+		02B9CB4F2E547CF700DC0521 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				02B9CB532E547EF500DC0521 /* NetworkManager.swift */,
+				02B9CB602E54808500DC0521 /* StationService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		02B9CB502E547D0100DC0521 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02B9CB642E54835000DC0521 /* StationListView.swift */,
+				02B9CB682E548DD200DC0521 /* StationDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		02B9CB512E547D0C00DC0521 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				02B9CB622E54823D00DC0521 /* StationsListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		02B9CB522E547D1700DC0521 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				02B9CB4C2E547B0900DC0521 /* Config.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		02B9CB552E547F5C00DC0521 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02B9CB562E547F6D00DC0521 /* EVStation.swift */,
+				02B9CB582E547FC500DC0521 /* AddressInfo.swift */,
+				02B9CB5A2E547FD400DC0521 /* Connection.swift */,
+				02B9CB5C2E547FE400DC0521 /* ConnectionType.swift */,
+				02B9CB5E2E547FF200DC0521 /* Station.swift */,
+				02B9CB662E54867500DC0521 /* Country.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F85E4302E5602F700E1A192 /* README.md in Resources */,
 				02B9CB2A2E547AF300DC0521 /* Preview Assets.xcassets in Resources */,
 				02B9CB272E547AF300DC0521 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +342,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02B9CB252E547AF100DC0521 /* ContentView.swift in Sources */,
+				02B9CB542E547EF500DC0521 /* NetworkManager.swift in Sources */,
+				02B9CB652E54835000DC0521 /* StationListView.swift in Sources */,
+				02B9CB5F2E547FF200DC0521 /* Station.swift in Sources */,
+				02B9CB5D2E547FE400DC0521 /* ConnectionType.swift in Sources */,
+				02B9CB672E54867500DC0521 /* Country.swift in Sources */,
+				02B9CB572E547F6D00DC0521 /* EVStation.swift in Sources */,
+				02B9CB692E548DD200DC0521 /* StationDetailView.swift in Sources */,
+				02B9CB632E54823D00DC0521 /* StationsListViewModel.swift in Sources */,
 				02B9CB232E547AF100DC0521 /* EVStationsApp.swift in Sources */,
+				02B9CB592E547FC500DC0521 /* AddressInfo.swift in Sources */,
+				02B9CB4D2E547B0900DC0521 /* Config.swift in Sources */,
+				02B9CB612E54808500DC0521 /* StationService.swift in Sources */,
+				02B9CB5B2E547FD400DC0521 /* Connection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +362,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F85E42A2E55A0F800E1A192 /* StationsListViewModelTests.swift in Sources */,
 				02B9CB342E547AF400DC0521 /* EVStationsTests.swift in Sources */,
+				4F85E42C2E55FF1400E1A192 /* MockStationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +522,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EVStations/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EVStations/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Needed to find nearby EV chargers.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +553,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EVStations/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EVStations/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Needed to find nearby EV chargers.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
