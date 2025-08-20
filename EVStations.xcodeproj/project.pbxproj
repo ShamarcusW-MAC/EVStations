@@ -27,7 +27,6 @@
 		02B9CB692E548DD200DC0521 /* StationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9CB682E548DD200DC0521 /* StationDetailView.swift */; };
 		4F85E42A2E55A0F800E1A192 /* StationsListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85E4292E55A0F800E1A192 /* StationsListViewModelTests.swift */; };
 		4F85E42C2E55FF1400E1A192 /* MockStationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85E42B2E55FF1400E1A192 /* MockStationService.swift */; };
-		4F85E4302E5602F700E1A192 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4F85E42F2E5602F700E1A192 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +71,6 @@
 		02B9CB682E548DD200DC0521 /* StationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailView.swift; sourceTree = "<group>"; };
 		4F85E4292E55A0F800E1A192 /* StationsListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsListViewModelTests.swift; sourceTree = "<group>"; };
 		4F85E42B2E55FF1400E1A192 /* MockStationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockStationService.swift; sourceTree = "<group>"; };
-		4F85E42F2E5602F700E1A192 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +130,6 @@
 				02B9CB222E547AF100DC0521 /* EVStationsApp.swift */,
 				02B9CB262E547AF300DC0521 /* Assets.xcassets */,
 				02B9CB282E547AF300DC0521 /* Preview Content */,
-				4F85E42F2E5602F700E1A192 /* README.md */,
 			);
 			path = EVStations;
 			sourceTree = "<group>";
@@ -315,7 +312,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F85E4302E5602F700E1A192 /* README.md in Resources */,
 				02B9CB2A2E547AF300DC0521 /* Preview Assets.xcassets in Resources */,
 				02B9CB272E547AF300DC0521 /* Assets.xcassets in Resources */,
 			);
