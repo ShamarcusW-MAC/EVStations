@@ -1,6 +1,6 @@
 EVStations
 
-EVStations is an iOS app built with SwiftUI, Combine, and async/await networking.  
+EVStations is an iOS app built with SwiftUI and async/await networking.  
 It displays nearby electric vehicle (EV) charging stations using the [Open Charge Map API](https://openchargemap.org/).  
 Users can browse a list of chargers and view station details, including map location and connector information.
 
